@@ -7,4 +7,6 @@ To Run This Plugin, You Need a Plugin:
 
 If You Have Installed All the Plugins Above, You Can Use the Plugin Normally
 
+Command Only: /keyshop
+
 
