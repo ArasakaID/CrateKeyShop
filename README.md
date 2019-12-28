@@ -1,4 +1,10 @@
 # CrateKeyShop
 
 To Run This Plugin, You Need a Plugin:
-1. (MysteryCrate)[https://poggit.pmmp.io/p/MysteryCrate]
+1. https://poggit.pmmp.io/p/MysteryCrate
+2. https://poggit.pmmp.io/p/EconomyAPI
+3. https://poggit.pmmp.io/p/FormAPI
+
+If You Have Installed All the Plugins Above, You Can Use the Plugin Normally
+
+
