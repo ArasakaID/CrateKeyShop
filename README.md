@@ -1,4 +1,4 @@
-# CrateKeyShop
+# CrateKeyShop      [![HitCount](http://hits.dwyl.io/MasApip/CrateKeyShop.svg)](http://hits.dwyl.io/MasApip/CrateKeyShop)
 
 To Run This Plugin, You Need a Plugin:
 1. https://poggit.pmmp.io/p/MysteryCrate
