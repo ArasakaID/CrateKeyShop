@@ -17,4 +17,6 @@ legendary.amount: 1
 legendary.success.purchase: "§aYou have successfully purchased a Legendary key!"
 #More Message
 not.enough.money: "§cYou don't have enough money!"
+quit.message: "§aThanks for visiting shop!"
+form.content: "§eHello, {PLAYER}. Your Money: §a{MONEY}, make sure you have enough money:)"
 ...
