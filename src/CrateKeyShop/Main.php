@@ -81,13 +81,18 @@ class Main extends PluginBase implements Listener {
 						$player->sendMessage($this->getConfig()->get("not.enough.money"));
 					}
 				break;
+				case 4:
+					$player->sendMessage($this->getConfig()->get("quit.message"));
+				break;
 			}
 		});					
 		$form->setTitle("CrateKey Shop");
+		$form->setContent(str_replace(["{MONEY}", "{PLAYER}"], [\pocketmine\Server::getInstance()->getPluginManager()->getPlugin("EconomyAPI")->myMoney($player), $player->getName()], $this->getConfig()->get("form.content"));
 		$form->addButton("§eCommon\n§aPrice: §e".$this->getConfig()->get("common.price"));
 		$form->addButton("§eUnCommon\n§aPrice: §e".$this->getConfig()->get("uncommon.price"));
 		$form->addButton("§eMythic\n§aPrice: §e".$this->getConfig()->get("mythic.price"));
 		$form->addButton("§eLegendary\n§aPrice: §e".$this->getConfig()->get("legendary.price"));
+		$form->addButton("§cExit\n§aQuit from shop");
 		$form->sendToPlayer($player);
 	}
 }
